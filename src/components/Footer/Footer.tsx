@@ -5,7 +5,7 @@ function Footer(){
     return(
         <footer>
             <div className="container">
-                <h4 id="custom-color"> © {"Axl Basilio"} {new Date().getFullYear()}</h4>
+                <h4> © {"Axl Basilio"} {new Date().getFullYear()}</h4>
                 <a id="custom-color" href="https://www.instagram.com/axl_basilio_/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={24} className="social-icon"/>
                 </a>

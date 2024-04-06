@@ -34,3 +34,11 @@ a:hover{
         scale: 1.05;
     }
 }
+@media (max-width: 480px) {
+    a:visited{
+        color:black !important;
+    }
+    .custom-color:visited{
+        color:black !important;
+    }
+}

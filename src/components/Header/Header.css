@@ -1,31 +1,59 @@
-header{
+/* Estilos existentes para vista de escritorio */
+
+header {
     background-color: transparent;
-    position:absolute;
-    top:0;
+    position: absolute;
+    top: 0;
     width: 100%;
     z-index: 9999;
     height: fit-content;
     display: flex;
 }
 
-.box{
+.box {
     position: relative;
     width: 7vh;
     height: 7vh;
-    margin:1vh;
+    margin: 1vh;
 }
-.colorwheel{
-    background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
-    border-radius:50%;
-    animation: spin 8s linear infinite;
 
+.colorwheel {
+    background: conic-gradient(red, yellow, lime, aqua, blue, magenta, red);
+    border-radius: 50%;
+    animation: spin 8s linear infinite;
 }
 
 @keyframes spin {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+    to {
         transform: rotate(360deg);
+    }
+}
+
+/* Consulta de media para dispositivos móviles */
+
+@media (max-width: 480px) {
+    header {
+        /* Ejemplo: hacer el header más compacto y ajustar su posición */
+        background-color: transparent;
+        position: absolute;
+        height: auto;
+    }
+
+    .box {
+        position: relative;
+        /* Ajustar el tamaño y el margen para dispositivos móviles */
+        width: 10vh;
+        height: 10vh;
+        margin: 0.5vh;
+    }
+
+    .colorwheel {
+        /* Ejemplo: reducir la velocidad de la animación para ahorro de batería */
+        animation: spin 10s linear infinite;
+        font-size: x-large;
+        box-shadow: 0px 5px 5px 1px rgba(0,0,0,0.4);
     }
 }
