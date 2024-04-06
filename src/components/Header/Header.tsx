@@ -4,7 +4,6 @@ function Header(){
     return(
         <header>
             <div className="colorwheel box">CSS sucks</div>
-
         </header>
     );
 }

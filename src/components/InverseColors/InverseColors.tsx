@@ -5,13 +5,13 @@ import "./InverseColors.css"
     const [valueG, setValueG] = useState(0);
     const [valueB, setValueB] = useState(0);
     const setValues = (hexC:string, color:string)=>{
-        if(color == "red"){
+        if(color === "red"){
             setValueR(parseInt(hexC));
         }
-        if(color == "green"){
+        if(color === "green"){
             setValueG(parseInt(hexC));
         }
-        if(color == "blue"){
+        if(color === "blue"){
             setValueB(parseInt(hexC));
         }
     }

@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Inverse Colors
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Inverse Colors is an interactive web application built with React and TypeScript. It's designed to provide a visual representation of RGB colors through hexadecimal codes. The application features three sliders that allow users to modify the red, green, and blue components of a color. As adjustments are made, the application dynamically changes its background color to reflect the user's selections. Additionally, the hexadecimal code for the current color is displayed, enabling easy copying for use elsewhere.
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+To get a local copy up and running follow these simple steps.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Ensure you have npm installed on your machine. To check if you have npm installed, run the following command in your terminal:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+```bash
+git clone https://github.com/AxlBasilioa/inverse-colors.git
+```
+2. Navigate to the project directory
 
-### `npm run build`
+3. Install NPM packages
+```bash
+npm install
+```
+it requires react-icons
+4. Start the application
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application will be available at `http://localhost:3000` in your web browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To see the application in action, visit [this link](http://www.example.com).
 
-### `npm run eject`
+## Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Contact
 
-## Learn More
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/axl_basilio_/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Project Link: [https://github.com/AxlBasilioa/inverse-colors](https://github.com/AxlBasilioa/inverse-colors)
