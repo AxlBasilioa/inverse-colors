@@ -33,7 +33,7 @@ The application will be available at `http://localhost:3000` in your web browser
 
 ### Live Demo
 
-To see the application in action, visit [this link](http://www.example.com).
+To see the application in action, visit [this link](https://css-colors.web.app).
 
 ## Contributing
 
