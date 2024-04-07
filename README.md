@@ -9,6 +9,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 Ensure you have npm installed on your machine. To check if you have npm installed, run the following command in your terminal:
+```bash
+npm -v
+```
 
 
 ### Installation
