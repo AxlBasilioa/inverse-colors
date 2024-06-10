@@ -9,6 +9,9 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 Ensure you have npm installed on your machine. To check if you have npm installed, run the following command in your terminal:
+```bash
+npm -v
+```
 
 
 ### Installation
@@ -33,7 +36,7 @@ The application will be available at `http://localhost:3000` in your web browser
 
 ### Live Demo
 
-To see the application in action, visit [this link](https://css-colors.web.app).
+To see the application in action, visit [this link](https://visualize-colorscss.com/).
 
 ## Contributing
 
