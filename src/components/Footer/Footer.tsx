@@ -15,6 +15,7 @@ function Footer(){
                 <a id="custom-color" href="https://www.linkedin.com/in/baak99/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedinIn size={24} className="social-icon"/>
                 </a>
+                asdadas
             </div>
 
         </footer>
